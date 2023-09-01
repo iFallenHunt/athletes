@@ -1,34 +1,34 @@
-nome = str(input('Informe o nome do atleta ou FIM para encerrar: '))
-idade = int(input('informar idade: '))
-altura = float(input('informar altura'))
-peso = float(input('informar peso: '))
-sexo = str(input('informar sexo: ')) 
+name = str(input("Enter the athlete's name or END to close: "))
+age = int(input('inform age: '))
+height = float(input('inform height: '))
+weight = float(input('inform weight: '))
+gender = str(input('inform gender: ')) 
 cont = int
 media = float
-alto = float
-pesado = float
-soma = float
-nalto = str
-npesado = str
+tall = float
+heavy = float
+addition = float
+ntall = str
+nheavy = str
 
 media == 0
 cont ==0
-alto == 0 
-pesado == 0
-nalto == " "
-npesado == " "
+tall == 0 
+heavy == 0
+ntall == " "
+nheavy == " "
 
-while nome == 'fim':
-    soma =+ 1
+while name == 'fim':
+    addition =+ 1
     cont =+ 1
-    if sexo == 'm' or sexo == 'M':
-        if altura > alto:
-            alto == altura
-            nalto == nome
-    if sexo == 'f' or sexo == 'F':
-        if peso > pesado:
-            pesado == peso
-            npesado == nome
+    if gender == 'm' or gender == 'M':
+        if height > tall:
+            tall == height
+            ntall == name
+    if gender == 'f' or gender == 'F':
+        if weight > heavy:
+            heavy == weight
+            nheavy == name
         print(input('informe o nome do atleta ou fim: '))
-        print('o nome do atleta mais alto:', nalto)
-        print('o nome do atleta mais pesado é: ', npesado)
+        print('o nome do atleta mais tall:', tall)
+        print('o nome do atleta mais pesado é: ', nheavy)
